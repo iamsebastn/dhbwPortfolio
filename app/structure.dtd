@@ -1,0 +1,28 @@
+<!ELEMENT Bestellung (Kunde, Artikel)>
+
+<!ELEMENT Kunde (Name, Anschrift)>
+<!ATTLIST Kunde isStudent (true | false) #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Anschrift (Strasse, Hausnummer, PLZ, Ort)>
+
+<!ELEMENT Strasse (#PCDATA)>
+<!ELEMENT Hausnummer (#PCDATA)>
+<!ELEMENT PLZ (#PCDATA)>
+<!ELEMENT Ort (#PCDATA)>
+
+<!ELEMENT Matrikelnummer (#PCDATA)>
+<!ELEMENT Studienort (#PCDATA)>
+
+<!ELEMENT Artikel (Pizza+)>
+<!ELEMENT Pizza (Belag)+>
+<!ELEMENT Belag (#PCDATA)>
+
+<!ATTLIST Belag isSpicy (true | false) #REQUIRED>
+
+<!-- 
+    ? = kein oder 1 Element ist erlaubt
+
+    * = Kein oder mehrere Elemente sind erlaubt
+
+    + = ein oder mehrere Elemente erforderlich
+-->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bestellung SYSTEM "structure.dtd">
+
+<Bestellung>
+    <Kunde isStudent="false">
+        <Name>Max Muster</Name>
+        <Anschrift>
+            <Strasse>GibtesNicht</Strasse>
+            <Hausnummer>1</Hausnummer>
+            <PLZ>21624</PLZ>
+            <Ort>Buxtehude</Ort>
+        </Anschrift>
+    </Kunde>
+
+    <Artikel>
+        <Pizza>
+            <Belag isSpicy="false">Schinken</Belag>
+            <Belag isSpicy="false">Ananas</Belag>
+            <Belag isSpicy="false">Pepperoni</Belag>
+            <Belag isSpicy="false">Käse</Belag>
+        </Pizza>
+    </Artikel>
+</Bestellung>

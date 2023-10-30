@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bestellung SYSTEM "structure.dtd">
+
+<Bestellung>
+    <Kunde isStudent="true">
+        <Name>Sebastian</Name>
+        <Anschrift>
+            <Strasse>Sophienstraße</Strasse>
+            <Hausnummer>29</Hausnummer>
+            <PLZ>76133</PLZ>
+            <Ort>Karlsruhe</Ort>
+        </Anschrift>
+    </Kunde>
+
+    <Artikel>
+        <Pizza>
+            <Belag isSpicy="false">Schinken</Belag>
+            <Belag isSpicy="false">Käse</Belag>
+            <Belag isSpicy="true">Salami</Belag>
+            <Belag isSpicy="false">Pepperoni</Belag>
+        </Pizza>
+        <Pizza>
+            <Belag isSpicy="false">Schinken</Belag>
+            <Belag isSpicy="false">Käse</Belag>
+            <Belag isSpicy="false">Pilze</Belag>
+        </Pizza>
+        <Pizza>
+            <Belag isSpicy="false">Salami</Belag>
+            <Belag isSpicy="false">Käse</Belag>
+            <Belag isSpicy="false">Pilze</Belag>
+            <Belag isSpicy="false">Ananas</Belag>
+        </Pizza>
+    </Artikel>
+</Bestellung>
