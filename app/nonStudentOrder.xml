@@ -14,10 +14,12 @@
 
     <Artikel>
         <Pizza>
-            <Belag isSpicy="false">Schinken</Belag>
-            <Belag isSpicy="false">Ananas</Belag>
-            <Belag isSpicy="false">Pepperoni</Belag>
-            <Belag isSpicy="false">Käse</Belag>
+            <Belag>
+                <Salami isSpicy="true"></Salami>
+                <Kaese></Kaese>
+                <Pepperoni></Pepperoni>
+                <Pilze></Pilze>
+            </Belag>
         </Pizza>
     </Artikel>
 </Bestellung>

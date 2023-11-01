@@ -10,25 +10,32 @@
             <PLZ>76133</PLZ>
             <Ort>Karlsruhe</Ort>
         </Anschrift>
+        
+        <Martikelnummer>29858394</Martikelnummer>
+        <Studienort>Karlsruhe</Studienort>
     </Kunde>
 
     <Artikel>
         <Pizza>
-            <Belag isSpicy="false">Schinken</Belag>
-            <Belag isSpicy="false">Käse</Belag>
-            <Belag isSpicy="true">Salami</Belag>
-            <Belag isSpicy="false">Pepperoni</Belag>
+            <Belag>
+                <Salami isSpicy="true"></Salami>
+                <Schinken></Schinken>
+                <Kaese></Kaese>
+            </Belag>
         </Pizza>
         <Pizza>
-            <Belag isSpicy="false">Schinken</Belag>
-            <Belag isSpicy="false">Käse</Belag>
-            <Belag isSpicy="false">Pilze</Belag>
+            <Belag>
+                <Salami isSpicy="true"></Salami>
+                <Schinken></Schinken>
+                <Kaese></Kaese>
+            </Belag>
         </Pizza>
         <Pizza>
-            <Belag isSpicy="false">Salami</Belag>
-            <Belag isSpicy="false">Käse</Belag>
-            <Belag isSpicy="false">Pilze</Belag>
-            <Belag isSpicy="false">Ananas</Belag>
+            <Belag>
+                <Salami isSpicy="false"></Salami>
+                <Pepperoni></Pepperoni>
+                <Pilze></Pilze>
+            </Belag>
         </Pizza>
     </Artikel>
 </Bestellung>
