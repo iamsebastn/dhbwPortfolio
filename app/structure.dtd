@@ -25,11 +25,3 @@
 <!ELEMENT Kaese (#PCDATA)>
 <!ELEMENT Pepperoni (#PCDATA)>
 <!ELEMENT Pilze (#PCDATA)>
-
-<!-- 
-    ? = kein oder 1 Element ist erlaubt
-
-    * = Kein oder mehrere Elemente sind erlaubt
-
-    + = ein oder mehrere Elemente erforderlich
--->

@@ -26,8 +26,9 @@
         <Pizza>
             <Belag>
                 <Salami isSpicy="true"></Salami>
-                <Schinken></Schinken>
                 <Kaese></Kaese>
+                <Pepperoni></Pepperoni>
+                <Pilze></Pilze>
             </Belag>
         </Pizza>
         <Pizza>
